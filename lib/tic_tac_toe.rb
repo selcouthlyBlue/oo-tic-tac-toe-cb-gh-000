@@ -102,6 +102,6 @@ class TicTacToe
     until over?
       turn()
     end
-    puts winner.nil? ? "Cat's game!" : "Congratualtions #{winner}!"
+    puts winner.nil? ? "Cat's game!" : "Congratulations #{winner}!"
   end
 end
