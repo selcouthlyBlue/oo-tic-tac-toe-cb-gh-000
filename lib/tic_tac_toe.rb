@@ -95,12 +95,13 @@ class TicTacToe
 
   def winner
     winning_combination = won?
-    return winning_combination.nil? ? nil : @board[winning_combination[0]]
+    return winning_combination || @board[winning_combination[0]]
   end
 
   def play()
     until over?
       turn()
     end
+    puts winner.nil?
   end
 end
