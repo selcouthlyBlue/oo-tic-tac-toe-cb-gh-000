@@ -33,4 +33,8 @@ class TicTacToe
   def move(index, char)
     @board[index] = char
   end
+
+  def position_taken(index)
+    
+  end
 end
