@@ -73,7 +73,7 @@ class TicTacToe
   end
 
   def won?()
-    winning_combination = WIN_COMBINATIONS.select do |combo|
+    winning_combination = WIN_COMBINATIONS.detect do |combo|
       combo.all? { |index| @board[index] == current_player }
     end
     return winning_combination == [] ? false : winning_combination
