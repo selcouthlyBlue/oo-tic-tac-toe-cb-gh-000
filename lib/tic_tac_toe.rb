@@ -97,4 +97,8 @@ class TicTacToe
     winning_combination = won?
     return winning_combination.nil? ? nil : @board[winning_combination[0]]
   end
+
+  def play()
+    
+  end
 end
