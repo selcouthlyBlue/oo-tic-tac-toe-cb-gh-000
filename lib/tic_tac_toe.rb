@@ -38,4 +38,8 @@ class TicTacToe
     square = @board[index]
     return !(square.nil? && square == "" || square == " ")
   end
+
+  def valid_move?(index)
+
+  end
 end
