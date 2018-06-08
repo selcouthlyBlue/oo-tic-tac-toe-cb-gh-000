@@ -40,7 +40,7 @@ class TicTacToe
   end
 
   def valid_move?(index)
-    return !(non_existent_square?(index) || position_taken(index))
+    return !(non_existent_square?(index) || position_taken?(index))
   end
 
   def non_existent_square?(index)
