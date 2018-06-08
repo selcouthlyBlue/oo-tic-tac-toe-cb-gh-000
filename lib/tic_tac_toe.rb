@@ -44,6 +44,6 @@ class TicTacToe
   end
 
   def non_existent_square?(index)
-    return !index.between(0, @board.length - 1)
+    return !index.between?(0, @board.length - 1)
   end
 end
