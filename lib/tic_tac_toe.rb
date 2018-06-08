@@ -78,7 +78,7 @@ class TicTacToe
         @board[index] == current_player
       }
     }
-    return winning_combination != [] ? winning_combination : false
+    return winning_combination
   end
 
   def full?()
