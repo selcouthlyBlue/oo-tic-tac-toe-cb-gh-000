@@ -54,4 +54,8 @@ class TicTacToe
   def turn_count()
     return @board.select{ |square| filled?(square) }.length
   end
+
+  def current_player()
+    return turn_count.even? ? "X" : "O"
+  end
 end
