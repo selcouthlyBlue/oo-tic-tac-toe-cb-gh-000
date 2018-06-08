@@ -35,6 +35,7 @@ class TicTacToe
   end
 
   def position_taken(index)
-    
+    square = @board[index]
+    return !(sqaure.nil? && square == "" || square == " ")
   end
 end
