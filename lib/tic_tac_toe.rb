@@ -58,4 +58,11 @@ class TicTacToe
   def current_player()
     return turn_count.even? ? "X" : "O"
   end
+
+  def turn()
+    index = input_to_index(gets.strip)
+    until valid_move?(index)
+      index = input_to_index(gets.strip)
+    end
+  end
 end
