@@ -46,4 +46,8 @@ class TicTacToe
   def non_existent_square?(index)
     return !index.between?(0, @board.length - 1)
   end
+
+  def turn_count()
+    
+  end
 end
