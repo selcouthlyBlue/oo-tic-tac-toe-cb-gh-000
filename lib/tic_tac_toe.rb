@@ -52,6 +52,6 @@ class TicTacToe
   end
 
   def turn_count()
-    return @board.select { |square|  }
+    return @board.select { |square| filled?(square) }
   end
 end
