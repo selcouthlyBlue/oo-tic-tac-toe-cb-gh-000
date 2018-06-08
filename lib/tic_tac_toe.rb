@@ -14,7 +14,7 @@ class TicTacToe
     @board = board || Array.new(9, " ")
   end
 
-  def display_board
+  def display_board()
     display_row(0)
     puts "-----------"
     display_row(1)
