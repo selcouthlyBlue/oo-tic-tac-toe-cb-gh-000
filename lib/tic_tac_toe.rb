@@ -48,6 +48,6 @@ class TicTacToe
   end
 
   def turn_count()
-    
+    return @board.select { |square|  }
   end
 end
