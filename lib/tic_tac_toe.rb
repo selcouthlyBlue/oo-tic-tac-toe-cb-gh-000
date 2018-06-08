@@ -74,6 +74,7 @@ class TicTacToe
 
   def won?()
     winning_combination = WIN_COMBINATIONS.detect{|combo|
+      filled?(@board[combo[0]]) &&
       @board[combo[0]] == @board[combo[1]] &&
       @board[combo[1]] == @board[combo[2]]
     }
