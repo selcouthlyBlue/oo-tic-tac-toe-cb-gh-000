@@ -21,4 +21,8 @@ class TicTacToe
     puts "-----------"
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
   end
+
+  def display_row(row_index)
+    puts " #{board[3 * row_index]} | #{board[3 * row_index + 1]} | #{board[3 * row_index + 2]} "
+  end
 end
