@@ -105,3 +105,5 @@ class TicTacToe
     puts winner.nil? ? "Cat's Game!" : "Congratulations #{winner}!"
   end
 end
+
+tictactoe = TicTacToe.new
