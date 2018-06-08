@@ -71,4 +71,8 @@ class TicTacToe
   def get_input()
     input_to_index(gets.strip)
   end
+
+  def won?()
+    
+  end
 end
