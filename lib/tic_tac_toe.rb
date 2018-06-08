@@ -25,4 +25,8 @@ class TicTacToe
   def display_row(row_index)
     puts " #{@board[3 * row_index]} | #{@board[3 * row_index + 1]} | #{@board[3 * row_index + 2]} "
   end
+
+  def input_to_index(user_input)
+    
+  end
 end
