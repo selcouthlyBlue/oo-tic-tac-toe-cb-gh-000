@@ -89,6 +89,6 @@ class TicTacToe
   end
 
   def over?()
-    return draw? || return won?
+    return draw? || won?
   end
 end
