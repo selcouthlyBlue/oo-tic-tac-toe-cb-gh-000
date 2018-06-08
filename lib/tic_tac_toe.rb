@@ -77,7 +77,7 @@ class TicTacToe
   end
 
   def full?()
-
+    return @board.all? { |square| filled?(square) }
   end
 
   def draw?()
