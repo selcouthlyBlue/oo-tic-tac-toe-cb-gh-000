@@ -40,6 +40,10 @@ class TicTacToe
   end
 
   def valid_move?(index)
+    return !(non_existent_square?(index) || position_taken(index))
+  end
 
+  def non_existent_square?(index)
+    return !index.between(0, @board.length - 1)
   end
 end
